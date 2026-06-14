@@ -23,6 +23,9 @@ export class AuthController {
     this.switchBtn = document.getElementById("auth-switch-btn");
     this.switchText = document.getElementById("auth-switch-text");
     this.registerFields = document.getElementById("register-fields");
+    this.confirmPasswordField = document.getElementById(
+      "confirm-password-field",
+    );
     this.alertBox = document.getElementById("alert-box");
 
     this.usernameInput = document.getElementById("auth-username");
@@ -106,6 +109,7 @@ export class AuthController {
       this.switchText.textContent = "Chưa có tài khoản?";
       this.switchBtn.textContent = "Đăng ký ngay";
       this.registerFields.classList.add("hidden");
+      this.confirmPasswordField?.classList.add("hidden");
       this.usernameInput.required = false;
       this.confirmPasswordInput.required = false;
       this.confirmPasswordInput.value = "";
@@ -115,6 +119,7 @@ export class AuthController {
       this.switchText.textContent = "Đã có tài khoản?";
       this.switchBtn.textContent = "Đăng nhập";
       this.registerFields.classList.remove("hidden");
+      this.confirmPasswordField?.classList.remove("hidden");
       this.usernameInput.required = true;
       this.confirmPasswordInput.required = true;
     }

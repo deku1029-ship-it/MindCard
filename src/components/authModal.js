@@ -22,10 +22,10 @@ export function getAuthModalHTML() {
             <div id="alert-box" class="hidden p-4 border border-red-500 text-red-500 text-[12px] font-bold uppercase tracking-wider bg-red-50"></div>
 
             <div id="register-fields" class="hidden space-y-6">
-               <div class="space-y-3">
-                  <label class="block text-[11px] font-black text-[#757575] uppercase tracking-widest">Tên của bạn</label>
-                  <input id="auth-username" type="text" class="w-full bg-gray-50 border-b border-[#bbbbbb] focus:border-[#1c69d4] py-3.5 px-0 text-[#262626] font-normal transition-all outline-none" placeholder="Nguyễn Văn A" />
-               </div>
+              <div class="space-y-3">
+                <label class="block text-[11px] font-black text-[#757575] uppercase tracking-widest">Tên của bạn</label>
+                <input id="auth-username" type="text" class="w-full bg-gray-50 border-b border-[#bbbbbb] focus:border-[#1c69d4] py-3.5 px-0 text-[#262626] font-normal transition-all outline-none" placeholder="Nguyễn Văn A" />
+              </div>
             </div>
 
             <div class="space-y-6">
@@ -37,7 +37,7 @@ export function getAuthModalHTML() {
                 <label class="block text-[11px] font-black text-[#757575] uppercase tracking-widest">Mật khẩu bảo mật</label>
                 <input id="auth-password" type="password" required class="w-full bg-gray-50 border-b border-[#bbbbbb] focus:border-[#1c69d4] py-3.5 px-0 text-[#262626] font-normal transition-all outline-none" placeholder="••••••••" />
               </div>
-              <div class="space-y-3">
+              <div id="confirm-password-field" class="hidden space-y-3">
                 <label class="block text-[11px] font-black text-[#757575] uppercase tracking-widest">Nhập lại mật khẩu</label>
                 <input id="auth-confirm-password" type="password" class="w-full bg-gray-50 border-b border-[#bbbbbb] focus:border-[#1c69d4] py-3.5 px-0 text-[#262626] font-normal transition-all outline-none" placeholder="••••••••" />
               </div>

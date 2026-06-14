@@ -114,6 +114,12 @@
         "user_id": 1,
         "createdAt": "2026-04-23T03:23:35.000Z",
         "updatedAt": "2026-04-23T03:23:35.000Z"
+      },
+      {
+        "id": 3,
+        "user_id": 7,
+        "createdAt": "2026-05-22T07:49:35.000Z",
+        "updatedAt": "2026-05-22T07:49:35.000Z"
       }
     ],
     "categories": [
@@ -260,6 +266,15 @@
         "show_on_home": 0,
         "createdAt": "2026-04-09T10:47:34.000Z",
         "updatedAt": "2026-04-22T07:30:01.000Z"
+      },
+      {
+        "id": 17,
+        "name": "Flashcard",
+        "parent_id": null,
+        "icon": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSdm69-ewN8gHMhxTf8BSmMBL9cu68puqiGf328ZxUTUwe6zgqTjb0WEgL7_QltnQhq3ouMl1q-sXw_irH2plnarisidT3PdZ_GMKIlV2dq",
+        "show_on_home": 0,
+        "createdAt": "2026-06-12T09:01:44.000Z",
+        "updatedAt": "2026-06-12T09:01:44.000Z"
       }
     ],
     "evaluations": [
@@ -354,6 +369,87 @@
         "price": "30816046.00",
         "createdAt": "2026-05-09T14:21:36.000Z",
         "updatedAt": "2026-05-09T14:21:36.000Z"
+      },
+      {
+        "id": 14,
+        "order_id": 8,
+        "product_id": 132,
+        "quantity": 1,
+        "price": "20033123.00",
+        "createdAt": "2026-05-17T14:48:54.000Z",
+        "updatedAt": "2026-05-17T14:48:54.000Z"
+      },
+      {
+        "id": 15,
+        "order_id": 8,
+        "product_id": 122,
+        "quantity": 1,
+        "price": "22414480.00",
+        "createdAt": "2026-05-17T14:48:54.000Z",
+        "updatedAt": "2026-05-17T14:48:54.000Z"
+      },
+      {
+        "id": 16,
+        "order_id": 8,
+        "product_id": 112,
+        "quantity": 1,
+        "price": "22095174.00",
+        "createdAt": "2026-05-17T14:48:54.000Z",
+        "updatedAt": "2026-05-17T14:48:54.000Z"
+      },
+      {
+        "id": 17,
+        "order_id": 9,
+        "product_id": 105,
+        "quantity": 1,
+        "price": "30816046.00",
+        "createdAt": "2026-05-25T07:28:26.000Z",
+        "updatedAt": "2026-05-25T07:28:26.000Z"
+      },
+      {
+        "id": 18,
+        "order_id": 9,
+        "product_id": 106,
+        "quantity": 1,
+        "price": "29656267.00",
+        "createdAt": "2026-05-25T07:28:26.000Z",
+        "updatedAt": "2026-05-25T07:28:26.000Z"
+      },
+      {
+        "id": 19,
+        "order_id": 10,
+        "product_id": 135,
+        "quantity": 1,
+        "price": "31436497.00",
+        "createdAt": "2026-06-09T14:03:46.000Z",
+        "updatedAt": "2026-06-09T14:03:46.000Z"
+      },
+      {
+        "id": 20,
+        "order_id": 10,
+        "product_id": 106,
+        "quantity": 1,
+        "price": "29656267.00",
+        "createdAt": "2026-06-09T14:03:46.000Z",
+        "updatedAt": "2026-06-09T14:03:46.000Z"
+      },
+      {
+        "id": 21,
+        "order_id": 10,
+        "product_id": 105,
+        "quantity": 1,
+        "price": "30816046.00",
+        "createdAt": "2026-06-09T14:03:46.000Z",
+        "updatedAt": "2026-06-09T14:03:46.000Z"
+      },
+      {
+        "id": 22,
+        "order_id": 11,
+        "product_id": 104,
+        "quantity": 1,
+        "price": "25387919.18",
+        "createdAt": "2026-06-10T07:19:04.000Z",
+        "updatedAt": "2026-06-10T07:19:04.000Z"
       }
     ],
     "orders": [
@@ -411,6 +507,50 @@
         "customer_phone": "32741269999",
         "createdAt": "2026-05-09T14:21:36.000Z",
         "updatedAt": "2026-05-09T14:21:53.000Z"
+      },
+      {
+        "id": 8,
+        "user_id": 1,
+        "total_price": "64542777.00",
+        "status": "delivered",
+        "shipping_address": "HN",
+        "customer_name": "Hoàng",
+        "customer_phone": "1283789123689",
+        "createdAt": "2026-05-17T14:48:54.000Z",
+        "updatedAt": "2026-05-17T14:49:10.000Z"
+      },
+      {
+        "id": 9,
+        "user_id": null,
+        "total_price": "60472313.00",
+        "status": "pending",
+        "shipping_address": "hn",
+        "customer_name": "A",
+        "customer_phone": "1242713391289",
+        "createdAt": "2026-05-25T07:28:26.000Z",
+        "updatedAt": "2026-05-25T07:28:26.000Z"
+      },
+      {
+        "id": 10,
+        "user_id": 1,
+        "total_price": "91908810.00",
+        "status": "delivered",
+        "shipping_address": "HN",
+        "customer_name": "A",
+        "customer_phone": "12389123019",
+        "createdAt": "2026-06-09T14:03:46.000Z",
+        "updatedAt": "2026-06-09T14:04:12.000Z"
+      },
+      {
+        "id": 11,
+        "user_id": 1,
+        "total_price": "25387919.18",
+        "status": "pending",
+        "shipping_address": "HN",
+        "customer_name": "B",
+        "customer_phone": "2131324389",
+        "createdAt": "2026-06-10T07:19:04.000Z",
+        "updatedAt": "2026-06-10T07:19:04.000Z"
       }
     ],
     "products": [
@@ -1866,13 +2006,13 @@
         "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=500",
         "ai_match_score": 83,
         "rating": 4.36321,
-        "stock": 20,
-        "sales_count": 0,
+        "stock": 19,
+        "sales_count": 1,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-04-17T07:44:33.000Z"
+        "updatedAt": "2026-06-10T07:19:04.000Z"
       },
       {
         "id": 105,
@@ -1886,13 +2026,13 @@
         "image_url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-cam_4.jpg",
         "ai_match_score": 83,
         "rating": 4.50577,
-        "stock": 36,
-        "sales_count": 1,
+        "stock": 34,
+        "sales_count": 3,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-05-09T14:21:36.000Z"
+        "updatedAt": "2026-06-09T14:03:46.000Z"
       },
       {
         "id": 106,
@@ -1906,13 +2046,13 @@
         "image_url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-ultra_1_1.jpg",
         "ai_match_score": 84,
         "rating": 4.5,
-        "stock": 91,
-        "sales_count": 2,
+        "stock": 89,
+        "sales_count": 4,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-05-09T14:21:36.000Z"
+        "updatedAt": "2026-06-09T14:03:46.000Z"
       },
       {
         "id": 107,
@@ -2026,13 +2166,13 @@
         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRa22IUc-J6myV_JzBw1KyBWqcRwiS_Nmqege6iTuix_q_pD_WkdR9hL0g2tt5JJssgFAigQcjs47rFzEwuosxz5w6j7RZfW21RHecTWW1umYejw__5jflj6juVK6x06JpnRFX8Jd8OnA&usqp=CAc",
         "ai_match_score": 85,
         "rating": 4.41956,
-        "stock": 84,
-        "sales_count": 0,
+        "stock": 83,
+        "sales_count": 1,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-05-09T14:17:42.000Z"
+        "updatedAt": "2026-05-17T14:48:54.000Z"
       },
       {
         "id": 113,
@@ -2226,13 +2366,13 @@
         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQJNBoB1DPCq1qoJfgShIzBi8EkK04JEpxQ7ZRU0rZk3zNvknPEzGIOQPr9uzWEPb1o1WKi97e-wwwB8vrkQy_ElE1w4gY57ibb5uGGuTKWePm_u_L7YcaSw_Tt7v_LD4d9MolPgqRI-Q&usqp=CAc",
         "ai_match_score": 88,
         "rating": 4.85873,
-        "stock": 42,
-        "sales_count": 0,
+        "stock": 41,
+        "sales_count": 1,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-05-09T14:17:50.000Z"
+        "updatedAt": "2026-05-17T14:48:54.000Z"
       },
       {
         "id": 123,
@@ -2425,14 +2565,14 @@
         "brand_id": 3,
         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ2Aa93eJy76y38a6RAEvD-CuhvcXpgIUU5FOSB2ZNKqUplA8A_I6P2aZ_73ice4P-O7N4RCGbQ6mkX9A3rWwXDjKk1XRiB67V_n_Q0i2KYj9AJNoPvjaOvhh0HusNdiUqq-KzuxXqTwyY&usqp=CAc",
         "ai_match_score": 86,
-        "rating": 4.32969,
-        "stock": 53,
-        "sales_count": 0,
+        "rating": 5,
+        "stock": 52,
+        "sales_count": 1,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-05-09T14:17:58.000Z"
+        "updatedAt": "2026-05-17T14:49:41.000Z"
       },
       {
         "id": 133,
@@ -2486,13 +2626,13 @@
         "image_url": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone_17e_pink_1.png",
         "ai_match_score": 73,
         "rating": 5,
-        "stock": 77,
-        "sales_count": 1,
+        "stock": 76,
+        "sales_count": 2,
         "warranty": "12 Tháng chính hãng",
         "condition": "Mới 100% Nguyên seal",
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
-        "updatedAt": "2026-05-09T14:22:11.000Z"
+        "updatedAt": "2026-06-09T14:03:46.000Z"
       },
       {
         "id": 136,
@@ -4373,6 +4513,186 @@
         "origin": "Hàng nhập khẩu",
         "createdAt": "2026-04-17T07:44:33.000Z",
         "updatedAt": "2026-04-17T07:44:33.000Z"
+      },
+      {
+        "id": 230,
+        "name": "Tập 50 tờ Flashcard thẻ nhớ ",
+        "description": "Tập 50 tờ Flashcard thẻ nhớ bìa trơn nâu/ đen NO54 Tập thẻ ghi chú, học từ mới trơn basic",
+        "price": "50000.00",
+        "original_price": "100000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTdtAsvr2QBwr2ADViA57ks-jc-JPM52PLsmElsHqzbhHpyciU7lxxbYfzmHiuuNJ4oTUj0Be_sbizmr1CMYDcRrUYfwKjGCPrBK6KyGFGk",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:03:55.000Z",
+        "updatedAt": "2026-06-12T09:03:55.000Z"
+      },
+      {
+        "id": 231,
+        "name": "FLASHCARD Nguyên tố hoá học",
+        "description": "",
+        "price": "300000.00",
+        "original_price": "500000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRdFwOjcWZ8whRjyFQHFMcLvpdDzqjJxhRtRAjITh_nnhzHrR73JdPbN9X0jBerWWBSRYjtshezNmYWoQihEbcdBRlsFFDix1lDtyJ48Lz9Anbx3YJ5pcFpgQ",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:05:27.000Z",
+        "updatedAt": "2026-06-12T09:05:27.000Z"
+      },
+      {
+        "id": 232,
+        "name": "Sách FlashCard Học Nguyên Tố Hợp Chất Hóa Học",
+        "description": "Sách FlashCard Học Nguyên Tố Hợp Chất Hóa Học - Thẻ học hóa thông minh",
+        "price": "100000.00",
+        "original_price": "150000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSdm69-ewN8gHMhxTf8BSmMBL9cu68puqiGf328ZxUTUwe6zgqTjb0WEgL7_QltnQhq3ouMl1q-sXw_irH2plnarisidT3PdZ_GMKIlV2dq",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:06:12.000Z",
+        "updatedAt": "2026-06-12T09:06:41.000Z"
+      },
+      {
+        "id": 233,
+        "name": "Tập thẻ Index Card Vocabulary học ngoại ngữ Toán hóa tiện lợi",
+        "description": "Tập thẻ Index Card Vocabulary học ngoại ngữ Toán hóa tiện lợi - Thẻ ghi nhớ Klong",
+        "price": "30000.00",
+        "original_price": "80000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSZ7Y3WO2nXdyjpiQ9tC936PXR6yhwlfYRzTHYnDRQXr0z3DTFt7Vg9oU7YbG3yH-q826WdiJJ2ffEQmdkX0tGOcJ2EFmiFooaekCorGxh-",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:07:40.000Z",
+        "updatedAt": "2026-06-12T09:09:29.000Z"
+      },
+      {
+        "id": 234,
+        "name": "Bộ Thẻ (Flashcard) Bé Học Toán ",
+        "description": "Bộ Thẻ (Flashcard) Bé Học Toán - Tư Duy Toán Học Cho Bé Từ 4 Đến 6 Tuổi Học Số Và Phép Tính",
+        "price": "80000.00",
+        "original_price": "130000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT1OavoWs3BVJMYsY5tO7RqJ6mXnr0BY7ezMywJBfMNjOOi4u17v1eaajIPd2KzP51905PiKaFCbYAHGzR7pkw-z1hpIkFDNs5QgqlEWXN0cLZ-mutydq2l",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:09:22.000Z",
+        "updatedAt": "2026-06-12T09:09:22.000Z"
+      },
+      {
+        "id": 235,
+        "name": "Sách Flashcard Vui Học Tiếng Anh",
+        "description": "Sách Flashcard Vui Học Tiếng Anh - Nghe Và Học Phát Âm Chuẩn Từ Vựng Ti",
+        "price": "120000.00",
+        "original_price": "180000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://cdn1.fahasa.com/media/catalog/product/8/9/8936214271320.jpg",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:11:03.000Z",
+        "updatedAt": "2026-06-12T09:11:03.000Z"
+      },
+      {
+        "id": 236,
+        "name": "Sách - English Flashcard For Kids",
+        "description": "Sách - English Flashcard For Kids + File nghe - Dạy Trẻ Theo Phương Pháp Glenn Doman",
+        "price": "500000.00",
+        "original_price": "680000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://down-vn.img.susercontent.com/file/d193e44ad27d1e67c5ddbee1fecaacf8",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:12:11.000Z",
+        "updatedAt": "2026-06-12T09:12:11.000Z"
+      },
+      {
+        "id": 237,
+        "name": "Flashcard Vui Học Tiếng Anh",
+        "description": "Flashcard Vui Học Tiếng Anh - Nghe Và Học Phát Âm Chuẩn Từ Vựng Tiếng Anh Lớp 1",
+        "price": "90000.00",
+        "original_price": "150000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://cdn1.fahasa.com/media/catalog/product/8/9/8936214271306.jpg",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:12:55.000Z",
+        "updatedAt": "2026-06-12T09:12:55.000Z"
+      },
+      {
+        "id": 238,
+        "name": "Giấy note KLong Flashcard ",
+        "description": "Giấy note KLong Flashcard ",
+        "price": "30000.00",
+        "original_price": "50000.00",
+        "category": null,
+        "category_id": 17,
+        "brand_id": null,
+        "image_url": "https://bizweb.dktcdn.net/thumb/1024x1024/100/299/021/products/8936036829136.jpg?v=1760345550767",
+        "ai_match_score": 0,
+        "rating": 0,
+        "stock": 100,
+        "sales_count": 0,
+        "warranty": "12 Tháng chính hãng",
+        "condition": "Mới 100% Nguyên seal",
+        "origin": "Nhập khẩu / Chính hãng",
+        "createdAt": "2026-06-12T09:14:22.000Z",
+        "updatedAt": "2026-06-12T09:14:22.000Z"
       }
     ],
     "reviews": [
@@ -4393,6 +4713,24 @@
         "comment": "Giá cả hợp lý",
         "createdAt": "2026-05-09T14:22:29.000Z",
         "updatedAt": "2026-05-09T14:22:29.000Z"
+      },
+      {
+        "id": 3,
+        "user_id": 1,
+        "product_id": 132,
+        "rating": 5,
+        "comment": "Sản Phẩm Tốt",
+        "createdAt": "2026-05-17T14:49:41.000Z",
+        "updatedAt": "2026-05-17T14:49:41.000Z"
+      },
+      {
+        "id": 4,
+        "user_id": 1,
+        "product_id": 135,
+        "rating": 5,
+        "comment": "Sản phẩm rất tốt",
+        "createdAt": "2026-06-09T14:04:38.000Z",
+        "updatedAt": "2026-06-09T14:04:38.000Z"
       }
     ],
     "settings": [
@@ -4535,16 +4873,6 @@
         "updatedAt": "2026-05-07T03:51:21.000Z"
       },
       {
-        "id": 2,
-        "username": "Nguyễn Văn Khách",
-        "email": "khachhang@gmail.com",
-        "password": "$2b$10$dbLEZFA8Y9TE8qLCX3oqduyHMktB9qe/no0dRoBRVmUvAaJMHlSIi",
-        "role": "customer",
-        "ai_memory": "\"[]\"",
-        "createdAt": "2026-04-07T09:06:10.000Z",
-        "updatedAt": "2026-04-07T09:06:10.000Z"
-      },
-      {
         "id": 4,
         "username": "phamminhd@gmail.com",
         "email": "minhd@aistore.com",
@@ -4563,6 +4891,16 @@
         "ai_memory": "\"[]\"",
         "createdAt": "2026-04-22T11:12:59.000Z",
         "updatedAt": "2026-04-22T11:22:22.000Z"
+      },
+      {
+        "id": 7,
+        "username": "Vân Phong",
+        "email": "vanphong@gmail.com",
+        "password": "$2b$10$S1J2FpU1DFHupjbF.AKlIeUV1IMh.AlBLyfPg4UAmvHvAGjWEzHtW",
+        "role": "customer",
+        "ai_memory": "[]",
+        "createdAt": "2026-05-22T07:49:27.000Z",
+        "updatedAt": "2026-05-22T07:54:01.000Z"
       }
     ]
   }

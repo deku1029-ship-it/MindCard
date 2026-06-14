@@ -1,11 +1,11 @@
 export function getAuthModalHTML() {
   return `
-      <div id="auth-modal" class="fixed inset-0 z-[100] flex items-center justify-center hidden">
+      <div id="auth-modal" class="fixed inset-0 z-[100] flex items-start justify-center overflow-y-auto py-4 hidden">
         <!-- Backdrop -->
         <div id="auth-backdrop" class="absolute inset-0 bg-[#262626]/80 backdrop-blur-sm transition-opacity opacity-0"></div>
         
         <!-- Modal Content -->
-        <div id="auth-box" class="relative w-full max-w-md bg-white border border-[#262626] transition-all transform scale-100 opacity-0 m-4 flex flex-col">
+        <div id="auth-box" class="relative w-full max-w-md bg-white border border-[#262626] transition-all transform scale-100 opacity-0 m-4 flex max-h-[calc(100vh-2rem)] flex-col overflow-hidden">
           
           <!-- Header -->
           <div class="p-8 text-[#262626] border-b border-gray-100 flex justify-between items-start">
@@ -18,7 +18,7 @@ export function getAuthModalHTML() {
             </button>
           </div>
           
-          <form id="auth-form" class="p-8 space-y-8">
+          <form id="auth-form" class="flex-1 overflow-y-auto px-8 pt-4 pb-8 space-y-8">
             <div id="alert-box" class="hidden p-4 border border-red-500 text-red-500 text-[12px] font-bold uppercase tracking-wider bg-red-50"></div>
 
             <div id="register-fields" class="hidden space-y-6">
@@ -36,6 +36,10 @@ export function getAuthModalHTML() {
               <div class="space-y-3">
                 <label class="block text-[11px] font-black text-[#757575] uppercase tracking-widest">Mật khẩu bảo mật</label>
                 <input id="auth-password" type="password" required class="w-full bg-gray-50 border-b border-[#bbbbbb] focus:border-[#1c69d4] py-3.5 px-0 text-[#262626] font-normal transition-all outline-none" placeholder="••••••••" />
+              </div>
+              <div class="space-y-3">
+                <label class="block text-[11px] font-black text-[#757575] uppercase tracking-widest">Nhập lại mật khẩu</label>
+                <input id="auth-confirm-password" type="password" class="w-full bg-gray-50 border-b border-[#bbbbbb] focus:border-[#1c69d4] py-3.5 px-0 text-[#262626] font-normal transition-all outline-none" placeholder="••••••••" />
               </div>
             </div>
 
@@ -62,4 +66,3 @@ export function getAuthModalHTML() {
       </div>
     `;
 }
-

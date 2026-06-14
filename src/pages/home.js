@@ -157,10 +157,11 @@ export class HomePage {
                     <div class="max-w-7xl mx-auto px-8">
                         <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                             <div>
-                                <h2 class="text-4xl md:text-6xl font-black text-[#262626] uppercase tracking-[-0.03em] leading-none mb-4">
-                                    GỢI Ý <br/> <span class="font-light">DÀNH CHO BẠN</span>
+                                <h2 class="text-4xl md:text-6xl font-black text-[#262626] uppercase tracking-[-0.03em] leading-[1.02] mb-6">
+                                    <span class="block">GỢI Ý</span>
+                                    <span class="block font-light mt-1 md:mt-2">DÀNH CHO BẠN</span>
                                 </h2>
-                                <p class="text-[#757575] font-bold text-xs uppercase tracking-widest">Đề xuất dựa trên sở thích của bạn</p>
+                                <p class="text-[#757575] font-bold text-xs uppercase tracking-widest mt-4">Đề xuất dựa trên sở thích của bạn</p>
                             </div>
                         </div>
                         <div id="ai-recommended-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
